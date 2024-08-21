@@ -1,0 +1,73 @@
+1. what is cli and how does it to work with it.
+CLI stands for Command Line Interface, which is a way to interact with a computer program or operating system by typing in text commands. CLIs are available on all operating systems, including Windows, Linux, and macOS, in addition to the graphical user interface (GUI). 
+2.What is a versioning control system and why we need it.
+A version control system (VCS) is a tool that tracks and manages changes made to files, usually source code. It helps developers collaborate, understand how a project has changed, and revert to previous versions if necessary. VCSs can also help pinpoint issues when multiple developers make incompatible changes. 
+3.Understand the differences between Git and GitHub?
+Git and GitHub are both tools used to manage and collaborate on code, but they differ in several ways:
+Type of software: Git is a free, open-source version control system (VCS) that developers install on their local computers. GitHub is a cloud-based, pay-for-use Software as a Service (SaaS) that hosts Git repositories.
+User interface: Git uses a command-line tool for tasks like committing and merging code. GitHub provides a graphical interface with features like access control, collaboration, and task management.
+4.Understand the difference between the main branch and other branches of a repository.
+In version control systems, the main branch holds the production-ready code, while other branches are used for testing and development. The main branch is considered the default branch and is where all changes are eventually merged. Developers create new branches from the main branch to test and make changes without directly affecting the main code. Once the changes are tested and reviewed, they are merged back into the main branch.
+5.Understand what an IDE is.
+An IDE, or Integrated Development Environment, is a software application that helps programmers develop software code more efficiently. It combines many tools used in software development into a single graphical user interface (GUI), such as text editors, code libraries, compilers, and test platforms. Without an IDE, developers would need to use separate tools for each task, such as a text editor for entering code and a compiler to make the program understandable to the computer. 
+6.How to open and use VS Code.
+Here are some ways to open and use Visual Studio Code (VS Code):
+From the terminal: Make sure VS Code is in your system's PATH, then open the terminal. On Windows, you can do this by pressing Ctrl + Alt + T, and on Mac, you can press Command + T. Next, type the following commands:
+Code: Opens VS Code in the current directory
+code [path to file]: Opens a specific file or folder in VS Code
+code -n: Starts a new project in VS Code
+code --help: Provides more commands.
+7.Development tools -- CLI, Git and GitHub, and VS Code.
+Visual Studio Code (VS Code), Git, and GitHub are development tools that can be used together to improve workflows. VS Code has integrated source control management (SCM) and Git support, and can guide users through common Git actions. GitHub can be used from the command line with the GitHub CLI, or locally with the GitHub Desktop client. GitHub also offers a variety of codes.
+
+8.Know what Jupyter Notebooks are
+
+how to Install and start up Jupyter Notebooks
+how to use Jupyter Notebooks inside of VS Code
+read the resources on beautifying Jupyter Notebook.
+Jupyter Notebooks are a tool for data analysis that allow users to write and iterate on Python code in separate blocks, called "cells". Each cell can be run individually and notebooks can be organized using markdown.
+Here's a breakdown of Jupyter Notebooks:
+Components
+A front-end web page where users input code or text into cells, and a back-end kernel that runs the code and returns results.
+Installation
+Can be installed using pip or downloaded with Anaconda.
+Launching
+To launch Jupyter Notebook, open a terminal, navigate to the desired directory, and type jupyter notebook. The notebook interface should open in a browser window.
+Using in VS Code
+To create a Jupyter Notebook in VS Code, users can run the Create: New Jupyter Notebook command from the Command Palette (Ctrl+Shift+P). Existing notebooks can be opened by right-clicking on the file and selecting VS Code. 
+9.Know what type of programming language the Python language is?
+Python is an interpreted, high-level, object-oriented programming language with dynamic semantics. It was developed by Guido van Rossum and released in 1991. The language is designed to be easy and fun to use, and its name is a reference to the British comedy group Monty Python. 
+10.Know how to install Python?
+
+Python is an interpreted, high-level, object-oriented programming language with dynamic semantics. It was developed by Guido van Rossum and released in 1991. The language is designed to be easy and fun to use, and its name is on british actor.
+11.Know how to start coding Python
+
+how to create Python files in VS Code
+how to write Python code inside a Jupyter Notebook.
+Starting Python in VS Code and Jupyter Notebooks:
+Creating Python files in VS Code:
+Welcome page: Select New File then Python file.
+File menu: Navigate to File > New File (unassigned).
+Keyboard shortcut: Press Ctrl + N to open a new file.
+12.Understand how to run your Python code
+
+how to run Python code files in the CLI
+how to run Python code files in VS Code
+how to run Python code files in Jupyter Notebooks
+Here's how you can run Python code files in different environments:
+Command Line Interface (CLI)
+Open a terminal and navigate to the script's directory.
+Use the command python /path/to/your/script.py. 
+Visual Studio Code (VS Code)
+Click the Run Python File in Terminal button in the top right corner.
+Right-click and choose Run > Python File in Terminal.
+Select lines of code and press Shift+Enter.
+Press F5 to debug the code. 
+Jupyter Notebooks
+Click the Run button (play symbol) in the toolbar.
+Press Shift+Enter.
+Use the double arrow in the toolbar to run all cells.
+Select Run All, Run All Above, or Run All Below. 
+13.Understand some basics about debugging.
+Debugging is a multi-step process in computer programming and engineering that involves identifying and fixing errors in software. It's a crucial part of software development that ensures the quality, functionality, and reliability of the final product. 
+
